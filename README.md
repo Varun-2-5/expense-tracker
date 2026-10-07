@@ -18,7 +18,7 @@ A simple expense tracking web application to record purchases and calculate tota
 ## How to Run
 
 1. Clone this repository.
-2. Open the Expense Tracker HTML file in your web browser.
+2. Open the index.html file in your web browser.
 3. Enter a product name and its price.
 4. Add the expense to the list.
 5. View the total amount spent.
