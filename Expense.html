@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-black flex justify-center items-center min-h-screen">
+    <div class="bg-blue-400 p-15 rounded">
+
+        <h1 class="text-2xl font-semibold text-center mb-6">Expense Tracker</h1>
+        <form id="expense-form">
+            <input class="border px-1" type="text" placeholder="Expense Name" id="expense-name">
+
+            <input class="border px-1" type="number" placeholder="Amount" id="expense-amount">
+
+            <button class="bg-gray-800 text-white px-3 py-0.5 rounded hover:cursor-pointer hover:bg-black transition duration-300" id="add-btn">Add</button>
+        </form>
+
+        <h2 class="text-2xl font-semibold mt-4 mb-2">Expenses</h2>
+        <ul id="expense-list">
+
+        </ul>
+
+        <h3 class="font-semibold text-lg">Total : $<span id="total-amount">0.00</span></h3>
+    </div>
+    <script src="Expenses.js"></script>
+</body>
+
+</html>
